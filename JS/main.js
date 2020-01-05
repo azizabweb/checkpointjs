@@ -40,8 +40,3 @@ function fontfamily() {
     texttag.style.fontFamily = userfontfamily;
 }
 
-function makeitred() {
-
-    mytag.style.color = "red";
-    myfeedbacktag.style.color = "blue";
-}
