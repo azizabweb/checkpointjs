@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+  <div align="center">
+    <ul>
+      <li class="navbar-item"> <a href="index.html">Home </a> </li>
+      <li class="navbar-item"><a href="courses.html">Courses</a></li>
+      <li class="navbar-item"><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  <hr>
+
+  <center>
+    <div class="navimg">
+      Courses
+    </div>
+  </center>
+  <div>
+    <h1>courses</h1>
+    <div class="fleximg">
+      <div class="singleimg"><img src="RES/pic2.png" alt=""></div>
+      <div class="singleimg"><img src="RES/pic3.png" alt=""></div>
+      <div class="singleimg"><img src="RES/pic4.png" alt=""></div>
+      <div class="singleimg"><img src="RES/pic5.png" alt=""></div>
+      <div class="singleimg"><img src="RES/pic6.png" alt=""></div>
+      <div class="singleimg"><img src="RES/pic7.png" alt=""></div>
+      <div class="singleimg"><img src="RES/pic8.png" alt=""></div>
+      <div class="singleimg"><img src="RES/pic9.png" alt=""></div>
+    </div>
+    <center>
+      <h3 id="myheader">Test JS</h3>
+      <button onclick="makeitred()">Make TEST JS Red</button>
+      <h1 id="center">Feedback</h1>
+      <button onclick="makeitbold()">b</button>
+      <button onclick="makeititalic()">i</button>
+      <button onclick="makeitunderline()">underline</button>
+      <select id="selectsize" onchange="changesize()">
+        <option>20px</option>
+        <option>30px</option>
+        <option>40px</option>
+      </select>
+      <select id="selecttype" onchange="fontfamily()">
+        <option>arial</option>
+        <option>verdana</option>
+        <option>geneva</option>
+      </select>
+      <form>
+        <textarea id="text" cols="30" rows="5">Hello World</textarea>
+    </center>
+
+</body>
+<script src="js/main.js"></script>
+
+</html>

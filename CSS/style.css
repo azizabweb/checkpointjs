@@ -1,0 +1,50 @@
+a {
+    font-size: 40px;
+}
+
+.first {
+    font-size: 80px;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: rgba(194, 36, 30, 0.62);
+}
+
+.fleximg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1300px;
+
+}
+
+.singleimg {
+    margin: 20px;
+
+}
+
+.navimg {
+    height: 350px;
+    color: azure;
+    font-size: 80px;
+    background-image: url(../RES/pic1.png);
+}
+
+input {
+    display: block;
+}
+
+#text {
+    height: 200px;
+    width: 400px;
+}
